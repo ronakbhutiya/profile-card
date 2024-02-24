@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.color {
+  color: #333;
+}
+.flex {
+  display: flex;
+}
+.section-hero {
+  height: 100vh;
+  background-color: #c0cfdb;
+}
+.nav-hero {
+  padding-top: 2rem;
+}
+.img-img {
+  justify-content: center;
+  align-items: center;
+}
+.img-nav-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.nav-list {
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 4rem;
+}
+.logo-img {
+  height: 3.5rem;
+}
+.nav-btn {
+  text-decoration: none;
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: transparent;
+}
+.text-box {
+  margin-top: 15rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-header {
+  font-size: 1.5rem;
+}
+.text-p {
+  margin-top: 2.4rem;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 33rem;
+  font-size: 1.3rem;
+}
+.text {
+  font-size: 1rem;
+}
+.text-box h1 {
+  font-size: 4.5rem;
+}
+.email-btn input,
+.btn {
+  border-style: none;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  margin: 2rem 0;
+}
+.btn {
+  color: #ffff;
+  background-color: rgba(186, 57, 10, 0.914);
+}
+.icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.three-box {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.three-box-flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.three-box-text {
+  max-width: 22rem;
+}
+.three-box-text p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.three-box-text h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
